@@ -1,0 +1,16 @@
+{
+  "name": "manfred/basic-phpunit-prj",
+  "description": "Sample composer project",
+  "type": "project",
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "CodeCamp\\": "src/"
+    }
+  }
+}
